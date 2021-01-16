@@ -15,7 +15,7 @@ namespace TiendaServicios.Api.Libro.Aplicacion
     {
         public class ListaLibro : IRequest<List<LibroMaterialDto>>
         {
-
+            public ListaLibro() { }
         }
 
         public class Manejador : IRequestHandler<ListaLibro, List<LibroMaterialDto>>
